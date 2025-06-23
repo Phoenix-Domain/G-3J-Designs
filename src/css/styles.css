@@ -1,6 +1,6 @@
 :root{
   --primary-color: #120988;
-  --footer-color:#5149c0;
+  --footer-color:#1b1b2f;
   --accent-color: #cbb89d;
   --secondary-color: #f88418;
   --background-color: #fdfaf6;
@@ -268,8 +268,8 @@ a{
 
 footer{
   background-color: var(--footer-color);
-  color: var(--accent-color);
-  padding:1rem;
+  color: var(--background-color);
+  padding:0.5rem;
   text-align: center;
 }
 
@@ -282,7 +282,10 @@ footer a{
 footer li{
   list-style: none;
 }
-
+.footer__logo{
+  width:60%;
+  border-radius:1rem;
+}
 .footer__link{
   display:inline-block;
 }
