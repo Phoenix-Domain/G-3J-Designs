@@ -203,7 +203,7 @@ p{
 
 
 .logo{
-  width:40%;
+  width:60%;
 }
 
 .nav__logo{
@@ -254,6 +254,10 @@ a{
   padding:1rem;
 }
 
+.card__img{
+  width:50%;
+  border-radius:1rem;
+}
 footer{
   background-color: var(--footer-color);
   color: var(--accent-color);
