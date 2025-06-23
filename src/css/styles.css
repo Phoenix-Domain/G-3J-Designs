@@ -203,13 +203,22 @@ p{
 
 
 .logo{
-  width:80%;
+  width:40%;
 }
 
 .nav__logo{
   font-family: var(--font-family__headers);
   flex:1;
-  color:var(--header-color)
+  color:var(--background-color);
+  gap:0;
+}
+
+.nav__logo h3{
+  font-size:1.5rem;
+}
+
+nav{
+  gap:7rem !important;
 }
 
 header{
