@@ -202,7 +202,9 @@ p{
 
 
 
-
+.logo{
+  width:80%;
+}
 
 .nav__logo{
   font-family: var(--font-family__headers);
