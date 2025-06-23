@@ -295,6 +295,20 @@ footer li{
   transition: all 0.2s ease-in-out;
 }
 
+.fab,.fas{
+  font-size:1.7rem;
+  color:var(--secondary-color)
+}
+
+.social__link{
+  color: var(--background-color);
+  transition: all 0.2s ease;
+}
+
+.social__link:hover{
+  border-bottom:2px dotted var(--secondary-color)
+}
+
 
 
 @media screen and (max-width:320px){
