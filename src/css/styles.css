@@ -2,7 +2,7 @@
   --primary-color: #120988;
   --footer-color:#1b1b2f;
   --accent-color: #cbb89d;
-  --secondary-color: #f88418;
+  --secondary-color: #e06f00;
   --background-color: #fdfaf6;
   --text-color: #2b2b2b;
   --font-header: 'Playfair Display', serif;
@@ -113,7 +113,7 @@ p{
 
 .btn{
   background: var(--secondary-color);
-  color: whitesmoke;
+  color: var(--background-color);
   font-size:0.875rem;
   font-family: var(--font-body);
   padding:1rem 1.5rem;
@@ -260,11 +260,37 @@ a{
 }
 
 
-.emphasis, .testimonials cite{
+.emphasis{
   font-weight: bold;
   color:var(--secondary-color);
 }
 
+.testimonials cite{
+  font-weight: bold;
+  color:#472c10
+}
+
+.testimonials{
+  padding:7rem !important;
+}
+
+.testimonials h2{
+  margin-bottom:1.5rem;
+}
+.testimonial{
+  gap:0;
+  background:rgba(116, 89, 51, 0.5);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  border:1px solid rgb(199, 163, 163);
+  border-radius: 1rem;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease;
+  border-radius:1rem;
+}
 
 footer{
   background-color: var(--footer-color);
@@ -299,7 +325,10 @@ footer li{
   font-size:1.7rem;
   color:var(--secondary-color)
 }
-
+.fab:hover,.fas:hover{
+  cursor:pointer;
+  color:var(--secondary-color);
+}
 .social__link{
   color: var(--background-color);
   transition: all 0.2s ease;
@@ -385,3 +414,4 @@ footer li{
     font-size:1rem;
   }
 }
+
