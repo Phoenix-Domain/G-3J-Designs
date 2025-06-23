@@ -158,7 +158,6 @@ p{
 .nav__link{
    list-style: none;
    flex:5;
-   justify-content: flex-start;
 }
 
 .nav__links{
