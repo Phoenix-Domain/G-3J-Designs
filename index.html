@@ -3,17 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="G&3J Designs - Transforming spaces and brands with personalized interior and graphic design solutions. Nationwide shipping available.">
+  <meta name="description" content="G&3J Designs - Personalized interior and graphic design solutions. Nationwide shipping.">
   <meta name="keywords" content="Interior Design, Graphic Design, Home Decor, Branding, Custom Design, Nationwide Shipping">
   <meta name="author" content="G&3J Designs">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
+  <title>G&3J Designs</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="src/css/styles.css">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap">
+  </noscript>
+  <link rel="preload" href="src/css/styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="src/css/styles.css"></noscript>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <script src="src/js/script.js" defer></script>
-  <title>G&3j Designs</title>
 </head>
 <body>
   <header>
@@ -66,7 +69,7 @@
       <h2 class="emphasis">Our Services</h2>
       <section class="grid">
         <article class="card flex">
-          <h3>Interior Design</h3>
+          <h3 class="emphasis">Interior Design</h3>
           <article>
             <img
             sizes="(max-width: 1400px) 100vw, 1400px"
@@ -86,7 +89,7 @@
         </p>
       </article>
       <article class="card flex">
-        <h3>Graphic Design</h3>
+        <h3 class="emphasis">Graphic Design</h3>
         <article>
           <img
         sizes="(max-width: 1400px) 100vw, 1400px"
@@ -111,7 +114,8 @@
     </section>
 
     <section id="features" class="section__padding features">
-      <h2><span class="emphasis">Our Projects:</span> Bringing Visions to Life</h2>
+      <h2 class="emphasis">Our Projects: </h2>
+      <h3>Bringing Visions to Life</h3>
       <p>At G&3J Designs, we pride ourselves on transforming ideas into stunning realities. From <span class="emphasis">sophisticated interiors</span> to <span class="emphasis">personalized print materials,</span> our diverse portfolio showcases our commitment to quality, creativity, and client satisfaction.</p><br><h3>Explore some of our recent projects:</h3>
       <section class="grid">
         <article class="card flex">
@@ -185,19 +189,19 @@
     <section id="testimonials" class="section__padding testimonials">
       <h2 class="emphasis">What Our Clients Say</h2>
       <section class="grid">
-        <article class="testimonial flex card">
+        <article class="testimonial flex flex__column card">
           <p>"G&3J Designs transformed my living room into a cozy haven. Their attention to detail is unmatched!"</p>
           <cite>- Sarah L.</cite>
         </article>
-        <article class="testimonial flex card">
+        <article class="testimonial flex flex__column card">
           <p>"The branding they created for my business has truly set us apart. Highly recommend!"</p>
           <cite>- Mark T.</cite>
         </article>
-        <article class="testimonial flex card">
+        <article class="testimonial flex flex__column card">
         <p>"G&3J Designs completely reimagined our living room—I barely recognized the space, in the best way possible! Their attention to detail and creative vision turned our ideas into a stunning, personalized design."</p>
         <cite>- Amaka E.</cite>
       </article>
-      <article class="testimonial flex card">
+      <article class="testimonial flex flex__column card">
         <p>"Ordered custom decor from miles away—fast delivery, flawless design."</p>
         <cite>- Sandra U.</cite>
       </article>
