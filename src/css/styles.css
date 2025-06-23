@@ -158,6 +158,7 @@ p{
 .nav__link{
    list-style: none;
    flex:5;
+   justify-content: flex-start;
 }
 
 .nav__links{
@@ -299,7 +300,10 @@ footer li{
   font-size:1.7rem;
   color:var(--secondary-color)
 }
-
+.fab:hover,.fas:hover{
+  cursor:pointer;
+  color:var(--secondary-color);
+}
 .social__link{
   color: var(--background-color);
   transition: all 0.2s ease;
@@ -385,3 +389,4 @@ footer li{
     font-size:1rem;
   }
 }
+

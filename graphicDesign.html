@@ -11,7 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="src/css/styles.css">
   <script src="src/js/script.js" defer></script>
-  <title>Graphic Design || G&3J Designs</title>
+  <title>Graphic Design/Printing Press || G&3J Designs</title>
 </head>
 <body>
   <header>
@@ -209,20 +209,20 @@
           <p>"The branding they created for my business has truly set us apart. Highly recommend!"</p>
           <cite>- Mark T.</cite>
         </article>
-        <article class="testimonial flex card">
-        <p>"G&3J Designs transformed my living room into a cozy haven. Their attention to detail is unmatched!"</p>
-        <cite>- Sarah L.</cite>
+       <article class="testimonial flex card">
+        <p>"G&3J Designs completely reimagined our living room—I barely recognized the space, in the best way possible! Their attention to detail and creative vision turned our ideas into a stunning, personalized design."</p>
+        <cite>- Amaka E.</cite>
       </article>
-        <article class="testimonial flex card">
-          <p>"The branding they created for my business has truly set us apart. Highly recommend!"</p>
-          <cite>- Mark T.</cite>
-        </article>
+      <article class="testimonial flex card">
+        <p>"Ordered custom decor from miles away—fast delivery, flawless design."</p>
+        <cite>- Sandra U.</cite>
+      </article>
       </section>
       
     </section>
 
     <section class="cta" id="cta">
-      <article class="section__padding flex">
+      <article class="section__padding flex flex__column">
         <h3>Let’s Bring Your Vision to Life</h3>
         <p>Whether it’s a space or a brand — we’re ready when you are.</p>
         <a href="contact.html" class="btn btn__primary">Get in Touch</a>
@@ -231,25 +231,34 @@
   <footer class="grid">
     <section class="footer__top section__padding flex">
       <div class="footer__logo">
+        <img
+          sizes="(max-width: 960px) 100vw, 960px"
+          srcset="
+          src/images/logo/footer2.jpg 200w,
+          src/images/logo/footer.jpg 665w,
+          src/images/logo/footer3.jpg 960w"
+          src="src/images/logo/footer3.jpg"
+          alt="G&3J Designs Logo" class="logo footer__logo">
         <h3>G&3J Designs</h3>
       </div>
+      <p>&copy; 2025 G&3J Designs. All rights reserved.</p>
       <ul class="flex footer__links">
-        <li><a href="index.html" class="footer__link">Home</a></li>
+        <li><a href="#" class="footer__link">Home</a></li>
         <li><a href="interiorDesign.html" class="footer__link">Interior Design</a></li>
-        <li><a href="#" class="footer__link--primary">Graphic Design/<br>Printing Press</a></li>
+        <li><a href="graphicDesign.html" class="footer__link--primary">Graphic Design/<br>Printing Press</a></li>
         <li><a href="gallery.html" class="footer__link">Gallery</a></li>
         <li><a href="contact.html" class="footer__link">Contact</a></li>
       </ul>
     </section>
     <section class="footer__bottom section__padding flex">
-      <p>&copy; 2025 G&3J Designs. All rights reserved.</p>
-      <p class="flex">Follow us on:
+      <p class="flex">Follow us on:</p>
+      <article class="flex">
         <a href="https://www.facebook.com/g3jinteriordecors" class="social__link" target="_blank"><i class="fab fa-facebook"></i> G&3J Designs</a>
         <a href="https://www.instagram.com/g3jdesigns/" class="social__link" target="_blank"><i class="fab fa-instagram"></i>  g3jdesigns</a>
-         <a href="https://www.tiktok.com/@g3jdesigns" class="social__link" target="_blank"><i class="fab fab fa-tiktok"></i> g3jdesigns</a>
-         <p class="social__link"><i class="fas fa-phone"></i> +234 806 528 2298</p>
+        <a href="https://www.tiktok.com/@g3jdesigns" class="social__link" target="_blank"><i class="fab fab fa-tiktok"></i> g3jdesigns</a>
+        <p class="social__link"><i class="fas fa-phone"></i> +234 806 528 2298</p>
         <p class="social__link"><i class="fab fa-google"></i> g3jdesignsltd@gmail.com</p>
-      </p>
+      </article>
     </section>
   </footer>
 </body>
