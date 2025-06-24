@@ -43,6 +43,8 @@ body{
   padding: 0;
   overflow-x: hidden;
   scroll-behavior: smooth;
+  width:100vw;
+  height:100vh;
 }
 
 p{
@@ -71,7 +73,7 @@ p{
 }
 .grid{
   display:grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   grid-gap: 1rem;
 }
 .flex{
@@ -346,6 +348,9 @@ footer li{
     height:100%;
     object-fit:cover;
   }
+   .grid{
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  }
   .hero__content{
     width: 80%;
     max-width:80%;
@@ -364,11 +369,15 @@ footer li{
     margin:0
   }
 }
-@media screen and (min-width:320px){
-
+@media (min-width:320px) and (max-width:480px){
+  
   #hero{
     height:80vh;
   }
+  .grid{
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  }
+  
   .hero__img{
     width:100%;
     height:98%;
@@ -390,24 +399,35 @@ footer li{
   .hero__content a{
     font-size:0.875rem;
     margin:0
-  }
+  }  
+ 
 }
 
-@media screen and (min-width:450px){
+@media (min-width:481px) and (max-width:768px){
+  #hero{
+    height:80vh;
+  }
+  .grid{
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+  }
+  
+  .hero__img{
+    width:100%;
+    height:98%;
+    object-fit:cover;
+  }
   .hero__content{
     width: 80%;
-    max-width:60%;
+    max-width:80%;
     max-height:100%;
   }
-  .hero__content h1{
-    font-size:2.5rem;
-  }
+  
 
-  .hero__content p{
-    font-size:1.25rem;
-  }
+  
   .hero__content a{
-    font-size:1rem;
-  }
+    margin:0
+  } 
 }
+
+
 
