@@ -254,15 +254,21 @@ a{
 
 .card{
   padding:1rem;
+  max-height: fit-content;
 }
 
-.card__img{
+.card__img,.gallery__img{
   width:100%;
   border-radius:1rem;
 }
 
+.gallery__grid{
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)) !important;
+  gap:2rem;
+}
 
-.emphasis{
+
+.emphasis,.gallery__grid h3{
   font-weight: bold;
   color:var(--secondary-color);
 }
@@ -283,7 +289,7 @@ a{
   border-radius: 1rem;
 }
 
-.card:hover {
+.card:hover{
   transform: translateY(-10px);
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
   transition: all 0.3s ease;
@@ -334,6 +340,12 @@ footer li{
 
 .social__link:hover{
   border-bottom:2px dotted var(--secondary-color)
+}
+
+.gallery__grid .card:hover{
+  display:block;
+  transform: scale(1.2);
+  transition: all 0.5s ease-in-out;
 }
 
 
