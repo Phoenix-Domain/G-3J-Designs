@@ -349,10 +349,23 @@ footer li{
 .gallery__grid .card:hover{
   display:block;
   transform: scale(1.2);
-  margin-top:5rem;
+  margin:3.5rem 0;
   transition: all 0.5s ease-in-out;
 }
 
+.features__content{
+  margin-top:5rem;
+  margin-bottom:1rem;
+  max-width:70%
+}
+.features__content--primary{
+  margin-top:0;
+}
+
+.feature__btn--subtext{
+  font-size:0.95em;
+  font-weight:400;
+}
 
 @media screen and (max-width:320px){
 
