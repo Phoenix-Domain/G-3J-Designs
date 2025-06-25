@@ -40,8 +40,38 @@
       </ul>
     </nav>
   </header>
-  <main>
-
+  <main class="contact__main">
+    <section class="contact section__padding">
+      <div class="contact__intro">
+        <h1 class="emphasis">Contact Us</h1>
+        <p>
+          Ready to transform your space or brand? Reach out today and let G&amp;3J Designs bring your vision to life!</p><br><p>Whether you’re seeking expert advice, a personalized quote, or have a unique project in mind, our passionate team is eager to help.</p><br><p> Simply fill out the form below—let’s create something extraordinary together.</p>
+        </p>
+      </div>
+      <form action="#" method="POST" class="contact__form" autocomplete="on">
+        <div class="form__group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required autocomplete="name" placeholder="Your Name">
+        </div>
+        <div class="form__group">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone" required autocomplete="tel" placeholder="Your Phone Number">
+        </div>
+        <div class="form__group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required autocomplete="email" placeholder="Your Email">
+        </div>
+        <div class="form__group">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" required placeholder="e.g Interior Designer">
+        </div>
+        <div class="form__group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required placeholder="e.g I would like to seek the services of..."></textarea>
+        </div>
+        <button type="submit" class="btn btn--primary">Send Message</button>
+      </form>
+    </section>
   </main>
   <footer class="grid">
     <section class="footer__top section__padding flex">
