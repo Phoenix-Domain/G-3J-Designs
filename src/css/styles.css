@@ -13,3 +13,51 @@
   padding:0;
   box-sizing: border-box;
 }
+
+nav{
+  width: 100%;
+  display:flex;
+  justify-content: space-between;
+  background: var(--primary-color);
+  color:var(--text-color-light);
+  gap: 1rem;
+  padding:1rem;
+}
+
+nav img{
+  width:70%;
+  margin:0 auto;
+}
+
+nav ul{
+  list-style-type: none;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  flex:5;
+  width: 100%;
+  gap:1rem;
+}
+
+nav li{
+  text-align: left;
+}
+nav ul a{
+  color:var(--text-color-light);
+  text-decoration:none;
+  font-size: 1.2rem;
+  margin:1.5rem;
+  font-family: var(--body-font);
+  
+}
+
+nav > section:first-child{
+  width: 25dvw;
+  flex:1
+}
+
+nav h3{
+  width:100%;
+  margin:0 auto;
+  font-family: var(--header-font);
+}
