@@ -615,12 +615,22 @@ form input[type="submit"]:hover {
   nav{
     flex-direction: column;
     align-items: center;
-    padding: 0;
+    padding: 0 !important;
   }
   .nav__link{
     width:100%;
     flex-wrap: nowrap;
     font-size:90%;
+  }
+  .logo{
+    width:30%;
+  }
+  nav .flex__column{
+    gap:0;
+  }
+
+  nav a{
+    font-size:1.2rem;
   }
 }
 
