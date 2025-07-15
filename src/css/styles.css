@@ -225,7 +225,7 @@ p{
 }
 
 nav{
-  gap:7rem !important;
+  gap:7rem;
   position:fixed;
   top:0;
   left:0;
@@ -608,5 +608,18 @@ form input[type="submit"]:hover {
   .hero__content a{
     margin:0
   } 
+}
+
+@media screen and (max-width:710px){
+  nav{
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+  .nav__link{
+    width:100%;
+    flex-wrap: nowrap;
+    font-size:90%;
+  }
 }
 
