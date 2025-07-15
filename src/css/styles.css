@@ -164,7 +164,7 @@ p{
 
 .nav__link{
    list-style: none;
-   flex:5;
+   flex:7;
 }
 
 .nav__links{
@@ -210,22 +210,23 @@ p{
 
 
 .logo{
-  width:60%;
+  width:50%;
 }
 
 .nav__logo{
   font-family: var(--font-family__headers);
-  flex:1;
+  flex:0.5;
   color:var(--background-color);
   gap:0;
 }
 
 .nav__logo h3{
   font-size:1.5rem;
+  width:30%;
+  margin:0 auto;
 }
 
 nav{
-  gap:7rem;
   position:fixed;
   top:0;
   left:0;
