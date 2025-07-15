@@ -393,6 +393,7 @@ footer li{
   padding:3rem;
 }
 
+/* Form Styling */
 form {
   background: #d3a475;
   padding: 2.5rem 2rem;
@@ -498,6 +499,9 @@ form input[type="submit"]:hover {
   background: var(--primary-color);
   color: var(--background-color);
 }
+
+
+/* Media Queries */
 
 @media (max-width: 600px) {
   form {
