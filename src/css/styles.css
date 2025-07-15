@@ -1,0 +1,9 @@
+:root{
+  --body-bg-color:whitesmoke;
+  --primary-color: #120988;
+  --accent-color: #e06f00;
+  --text-color-light: whitesmoke;
+  --text-color-dark: #000;
+  --header-font: 'Playfair Display', serif;
+  --body-font: 'Work Sans', sans-serif; 
+}
